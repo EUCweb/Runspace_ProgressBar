@@ -1,0 +1,15 @@
+﻿<Window x:Name="Main" x:Class="Main.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Main Application" Height="150" Width="330" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    
+    <Grid>
+        
+     <Button x:Name="btnStart" Content="Start ProgressBar" Margin="5,5,0,0" VerticalAlignment="Top" Height="40" HorizontalAlignment="Left" Width="300"/>
+	<Button x:Name="btnExit" Content="Exit Program" Margin="5,50,0,0" VerticalAlignment="Top" Height="40" HorizontalAlignment="Left" Width="300"/>
+    
+    </Grid>
+</Window>
